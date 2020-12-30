@@ -1,0 +1,347 @@
+<!--mPythonType:0-->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="controls_repeat_forever" id="S-1_N``$[)Tzwq-T:MAz" x="-437" y="-262">
+    <statement name="DO">
+      <block type="mpython_display_fill" id="-hkV[78hD*%9pN+GWtc`">
+        <field name="display_fill">fill(0)</field>
+        <next>
+          <block type="procedures_callnoreturn" id="z;1jyKd,h6a1TPUT76xu">
+            <mutation name="pic1"></mutation>
+            <next>
+              <block type="mpython_display_Show" id="gY4DT`{,%0UeE.S[cC*+">
+                <next>
+                  <block type="mpython_sleep_ms" id="x3c*r.wR67UyOa5=NfUj">
+                    <field name="ms_us">s</field>
+                    <value name="duration">
+                      <shadow type="math_number" id="mt?3Mj{)OW}o8xs}[#Ke">
+                        <field name="NUM">1</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="mpython_display_fill" id="R!GZR`g/C,m%5uW5$J/J">
+                        <field name="display_fill">fill(0)</field>
+                        <next>
+                          <block type="procedures_callnoreturn" id="TeZq3w?V#SBU1YuK!]}!">
+                            <mutation name="pic2"></mutation>
+                            <next>
+                              <block type="mpython_display_Show" id="{t{I[PhEs/9b`2GchSNo">
+                                <next>
+                                  <block type="mpython_sleep_ms" id="IsBK5vV8Tw,*}VMg;giK">
+                                    <field name="ms_us">s</field>
+                                    <value name="duration">
+                                      <shadow type="math_number" id="?t_Dds$W+JU)C4^j0V19">
+                                        <field name="NUM">1</field>
+                                      </shadow>
+                                    </value>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="7LsVr5hZm?WnvK~gn-:h" x="-213" y="-262">
+    <field name="NAME">pic1</field>
+    <statement name="STACK">
+      <block type="mpython_display_shape_triangle" id="kbwV9`wi:{T0a_Qd[o!O">
+        <field name="state">1</field>
+        <field name="shape">triangle</field>
+        <value name="x">
+          <shadow type="math_number" id="4!MjFgwwwxUa+u1G8f6A">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="y">
+          <shadow type="math_number" id="%AlFfJu38?[,.`dp2*gV">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="x2">
+          <shadow type="math_number" id="-*aeRG+7MJxF^d~TZT|%">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="y2">
+          <shadow type="math_number" id="I)kgG3Zup$i![r/`ZEZP">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="x3">
+          <shadow type="math_number" id="],HA`GWvV35^C.xT-[72">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <value name="y3">
+          <shadow type="math_number" id="Hj^39=hV9(ap-4g[GG=}">
+            <field name="NUM">15</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_display_shape_triangle" id="AlGT6N#`Ek7TC_.+?G!v">
+            <field name="state">1</field>
+            <field name="shape">triangle</field>
+            <value name="x">
+              <shadow type="math_number" id="-H5a!xuipj,MZ}P/6WmR">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
+            <value name="y">
+              <shadow type="math_number" id="CuKZ*$ffGcmta9@esNG0">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
+            <value name="x2">
+              <shadow type="math_number" id="!4t;!#7qbEO03}WoLP5q">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
+            <value name="y2">
+              <shadow type="math_number" id="{s7,T[c99q9HP`7#Cy@3">
+                <field name="NUM">0</field>
+              </shadow>
+            </value>
+            <value name="x3">
+              <shadow type="math_number" id="Dz8*yg3fiI8I|Vs+IgeX">
+                <field name="NUM">45</field>
+              </shadow>
+            </value>
+            <value name="y3">
+              <shadow type="math_number" id="iFw}r_KYr)8?aALzKt+9">
+                <field name="NUM">15</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_display_shape_triangle" id="p7?h6r5RUSp$pTy,z/]C">
+                <field name="state">1</field>
+                <field name="shape">triangle</field>
+                <value name="x">
+                  <shadow type="math_number" id="N7%[I%+tX$9$M+G95U76">
+                    <field name="NUM">30</field>
+                  </shadow>
+                </value>
+                <value name="y">
+                  <shadow type="math_number" id="8#+6SL12J;gqmuG18xEA">
+                    <field name="NUM">30</field>
+                  </shadow>
+                </value>
+                <value name="x2">
+                  <shadow type="math_number" id="^%nHSsp]rVpGGj%.pRmT">
+                    <field name="NUM">45</field>
+                  </shadow>
+                </value>
+                <value name="y2">
+                  <shadow type="math_number" id="xMzZQLYGkJyjk*Q03Y#7">
+                    <field name="NUM">45</field>
+                  </shadow>
+                </value>
+                <value name="x3">
+                  <shadow type="math_number" id="`qX[WH1ONI|YW}{%UxdX">
+                    <field name="NUM">60</field>
+                  </shadow>
+                </value>
+                <value name="y3">
+                  <shadow type="math_number" id="v[%ObVNaW@/Gz#7L3K()">
+                    <field name="NUM">30</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="mpython_display_shape_triangle" id="anbwE$FaTXrYyfB=}UB7">
+                    <field name="state">1</field>
+                    <field name="shape">triangle</field>
+                    <value name="x">
+                      <shadow type="math_number" id="D,Xj},T7/^Ueq]W1^3Oe">
+                        <field name="NUM">30</field>
+                      </shadow>
+                    </value>
+                    <value name="y">
+                      <shadow type="math_number" id="F1[PjA(CqAYZ9xeg4x~_">
+                        <field name="NUM">30</field>
+                      </shadow>
+                    </value>
+                    <value name="x2">
+                      <shadow type="math_number" id="]xqY*{e|~O]7.)Lx!Z2S">
+                        <field name="NUM">30</field>
+                      </shadow>
+                    </value>
+                    <value name="y2">
+                      <shadow type="math_number" id="iuauWZsL[[bkocP+w!ny">
+                        <field name="NUM">60</field>
+                      </shadow>
+                    </value>
+                    <value name="x3">
+                      <shadow type="math_number" id=".kEK}mO#[EGE)rPd@j9g">
+                        <field name="NUM">15</field>
+                      </shadow>
+                    </value>
+                    <value name="y3">
+                      <shadow type="math_number" id="hwqfmpZY#rHIX[?=4Pw@">
+                        <field name="NUM">45</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="procedures_defnoreturn" id="pf:1lj|=KS1!EwCWa*1;" x="88" y="-262">
+    <field name="NAME">pic2</field>
+    <statement name="STACK">
+      <block type="mpython_display_shape_triangle" id="]2%uZ,I)TbQWj{FhkrN!">
+        <field name="state">1</field>
+        <field name="shape">triangle</field>
+        <value name="x">
+          <shadow type="math_number" id="|!(0rAUHka$1o$hM[X)f">
+            <field name="NUM">9</field>
+          </shadow>
+        </value>
+        <value name="y">
+          <shadow type="math_number" id="omHCP3*%KfW2Lf]I2RkX">
+            <field name="NUM">9</field>
+          </shadow>
+        </value>
+        <value name="x2">
+          <shadow type="math_number" id="]H!%)$nrR/X4Bkn#IDzy">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="y2">
+          <shadow type="math_number" id="GM12E=w74l7RNl.q6@0B">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="x3">
+          <shadow type="math_number" id="OYr09eHiz^,cPXs[Goq5">
+            <field name="NUM">30</field>
+          </shadow>
+        </value>
+        <value name="y3">
+          <shadow type="math_number" id=",0q%,`h*E*]Q3eY3!6`[">
+            <field name="NUM">9</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_display_shape_triangle" id="|{50BWQpm)wDQ-bN3Y`Q">
+            <field name="state">1</field>
+            <field name="shape">triangle</field>
+            <value name="x">
+              <shadow type="math_number" id="Jsd69x%-f9!SxlGnhVc~">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
+            <value name="y">
+              <shadow type="math_number" id="rC0c9SJ@BKC#H?BS~mYl">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
+            <value name="x2">
+              <shadow type="math_number" id="=]RZ,jrztlzkD`]9gdoP">
+                <field name="NUM">51</field>
+              </shadow>
+            </value>
+            <value name="y2">
+              <shadow type="math_number" id="Rd}(tP$iGUgS4:9*@4QD">
+                <field name="NUM">9</field>
+              </shadow>
+            </value>
+            <value name="x3">
+              <shadow type="math_number" id="xWHYySsAk-:H^/cZ;4,h">
+                <field name="NUM">51</field>
+              </shadow>
+            </value>
+            <value name="y3">
+              <shadow type="math_number" id="}ipO*F41Kd2o+Ua!]SbL">
+                <field name="NUM">30</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_display_shape_triangle" id="[x__/DKSXbbJq#)95|8u">
+                <field name="state">1</field>
+                <field name="shape">triangle</field>
+                <value name="x">
+                  <shadow type="math_number" id="FyF#3-gTF+V+?ssB*b~C">
+                    <field name="NUM">30</field>
+                  </shadow>
+                </value>
+                <value name="y">
+                  <shadow type="math_number" id="dX)W0~/qbo,]B)M=CAn=">
+                    <field name="NUM">30</field>
+                  </shadow>
+                </value>
+                <value name="x2">
+                  <shadow type="math_number" id="2zM0m*Qul`j[FIug!ro#">
+                    <field name="NUM">51</field>
+                  </shadow>
+                </value>
+                <value name="y2">
+                  <shadow type="math_number" id="cHbKLOt5,F69C?zX[[l|">
+                    <field name="NUM">51</field>
+                  </shadow>
+                </value>
+                <value name="x3">
+                  <shadow type="math_number" id="@7#5x8J)[)$~@#gYM:z}">
+                    <field name="NUM">30</field>
+                  </shadow>
+                </value>
+                <value name="y3">
+                  <shadow type="math_number" id="V]_twKS^i_us.0q_1R%0">
+                    <field name="NUM">51</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="mpython_display_shape_triangle" id="Ot`Y]ujb@qdm/LV!G#fL">
+                    <field name="state">1</field>
+                    <field name="shape">triangle</field>
+                    <value name="x">
+                      <shadow type="math_number" id="x8W~x1O~4pgA{23pnuTi">
+                        <field name="NUM">30</field>
+                      </shadow>
+                    </value>
+                    <value name="y">
+                      <shadow type="math_number" id="5,k%=|pc8m9gMUZTHCT[">
+                        <field name="NUM">30</field>
+                      </shadow>
+                    </value>
+                    <value name="x2">
+                      <shadow type="math_number" id="2/Q?^Dlbu+[il/VxRdh]">
+                        <field name="NUM">9</field>
+                      </shadow>
+                    </value>
+                    <value name="y2">
+                      <shadow type="math_number" id="q^x$sc-LrWF/E8`Yt9,h">
+                        <field name="NUM">51</field>
+                      </shadow>
+                    </value>
+                    <value name="x3">
+                      <shadow type="math_number" id="4/5_2y(%%XjnAa,JN2dt">
+                        <field name="NUM">9</field>
+                      </shadow>
+                    </value>
+                    <value name="y3">
+                      <shadow type="math_number" id="DteIUG}TuYY1{!KSlMDE">
+                        <field name="NUM">30</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>

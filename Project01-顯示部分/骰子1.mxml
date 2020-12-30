@@ -1,0 +1,47 @@
+<!--mPythonType:0-->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="mpython_Interrupt_AB" id="8|?+}d?jS}g,)B~0LMYr" x="-588" y="-212">
+    <field name="button">button_a</field>
+    <field name="action">down</field>
+    <statement name="DO">
+      <block type="mpython_display_fill" id="5gKph!CY6g@.F)KN.aTH">
+        <field name="display_fill">fill(0)</field>
+        <next>
+          <block type="mpython_display_DispChar_5lines" id="gVZ34oh+k:D6J=f!~hge">
+            <field name="TEXTMODE">1</field>
+            <value name="DispChar_5lines">
+              <shadow type="mpython_4_lines" id="k4?}.SFXE#GNzmwDxlg.">
+                <field name="mpython_4_lines">2</field>
+              </shadow>
+            </value>
+            <value name="message">
+              <shadow type="text" id="xMOKGB,Zl6S`1xfnALtp">
+                <field name="TEXT">Hello, world!</field>
+              </shadow>
+              <block type="text_join" id="D:zg(MrR29}Vj!mJHY7c">
+                <mutation items="1"></mutation>
+                <value name="ADD0">
+                  <block type="math_random_int" id="t/3aw(kAJy5}#ML~.J$?">
+                    <value name="FROM">
+                      <shadow type="math_number" id="v5UU%G#b+B@XDXGEB`wD">
+                        <field name="NUM">1</field>
+                      </shadow>
+                    </value>
+                    <value name="TO">
+                      <shadow type="math_number" id="*l}?@cb100Oh$xHEQkDu">
+                        <field name="NUM">6</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <next>
+              <block type="mpython_display_Show" id="kMee`kl2GZ?J~c}VIGjy"></block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
