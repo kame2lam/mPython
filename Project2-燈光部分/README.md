@@ -1,9 +1,4 @@
 ## 燈光部分
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
+* 程式1-流水燈
+![img](img\01.png)
