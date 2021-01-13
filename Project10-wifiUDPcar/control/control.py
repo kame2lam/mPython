@@ -34,13 +34,13 @@ def update():
 def on_mouse_down(pos):
     if up.collidepoint(pos):
         UDP_send("f")
-    if stop.collidepoint(pos):
-        UDP_send("s")
     if left.collidepoint(pos):
         UDP_send("l")
     if right.collidepoint(pos):
         UDP_send("r")
     if down.collidepoint(pos):
         UDP_send("b")
+    if stop.collidepoint(pos):
+        UDP_send("s")
 
 pgzrun.go()

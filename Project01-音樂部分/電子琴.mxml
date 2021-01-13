@@ -1,0 +1,176 @@
+<!--mPythonType:0-->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="mpython_display_fill" id="#({5gfbB0|ZlNU|VzDI[" x="-213" y="-337">
+    <field name="display_fill">fill(0)</field>
+    <next>
+      <block type="mpython_display_DispChar_5lines" id="H}}z3K(WK]uVan`|r*z!">
+        <field name="TEXTMODE">1</field>
+        <value name="DispChar_5lines">
+          <shadow type="mpython_4_lines" id="x%Bd0Uu6BR)9O9,WcX2I">
+            <field name="mpython_4_lines">1</field>
+          </shadow>
+        </value>
+        <value name="message">
+          <shadow type="text" id="Zav;s-t7{kqge~?cdT|g">
+            <field name="TEXT">電子琴</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="mpython_display_Show" id="AJA~ggwc[vkn[`+9GMlj"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="mpython_touch_event" id="~f@Gm^;-}1@B+OguPq,C" x="237" y="-262">
+    <field name="touchPad">H</field>
+    <field name="action">pressed</field>
+    <statement name="DO">
+      <block type="mpython_music_tone_tempo" id="k_Pk;,UqAIE9td9m8J2U">
+        <value name="musical_note">
+          <shadow type="mpython_music_musical_note" id="5vmRfoLE^`;A`n].7PcA">
+            <field name="musical_note">G3</field>
+            <field name="music_tick">4</field>
+          </shadow>
+        </value>
+        <value name="pin">
+          <shadow type="mpython_music_pin_p6" id="9K2_e*s3=l*A}$F454,s">
+            <field name="music_pin">6</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="mpython_Interrupt_AB" id="Z+TC0t1#_)sj*`3eg.jl" x="-212" y="-188">
+    <field name="button">button_a</field>
+    <field name="action">down</field>
+    <statement name="DO">
+      <block type="mpython_music_tone_tempo" id="_lNmL7rh}M%}#;Q(b!/j">
+        <value name="musical_note">
+          <shadow type="mpython_music_musical_note" id=":kyUC0n%1lGTF{/@yGJP">
+            <field name="musical_note">C3</field>
+            <field name="music_tick">4</field>
+          </shadow>
+        </value>
+        <value name="pin">
+          <shadow type="mpython_music_pin_p6" id="T{Y|iPZf$$U3Z!izYOgA">
+            <field name="music_pin">6</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="mpython_touch_event" id="q[-_,eSQQ_C%Pr%V@;7h" x="237" y="-163">
+    <field name="touchPad">O</field>
+    <field name="action">pressed</field>
+    <statement name="DO">
+      <block type="mpython_music_tone_tempo" id=";]M2e9pBhYcmPk]DR7XD">
+        <value name="musical_note">
+          <shadow type="mpython_music_musical_note" id="%T+,6x5u..nKz8HkVmCx">
+            <field name="musical_note">A3</field>
+            <field name="music_tick">4</field>
+          </shadow>
+        </value>
+        <value name="pin">
+          <shadow type="mpython_music_pin_p6" id="~G_bEUSKLvnqgkq)EE]Y">
+            <field name="music_pin">6</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="mpython_touch_event" id="^P8]Z9dWE8RmNrIB;~.;" x="-212" y="-88">
+    <field name="touchPad">P</field>
+    <field name="action">pressed</field>
+    <statement name="DO">
+      <block type="mpython_music_tone_tempo" id="dyUr$7s~,-6y@6cB4Uo=">
+        <value name="musical_note">
+          <shadow type="mpython_music_musical_note" id="E29|YGQ)4EtoBo],FqV|">
+            <field name="musical_note">D3</field>
+            <field name="music_tick">4</field>
+          </shadow>
+        </value>
+        <value name="pin">
+          <shadow type="mpython_music_pin_p6" id="MvLu4~q=wuzJXVip/{,p">
+            <field name="music_pin">6</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="mpython_touch_event" id="@dbY1FvSk0,$5RV.nq[)" x="237" y="-62">
+    <field name="touchPad">N</field>
+    <field name="action">pressed</field>
+    <statement name="DO">
+      <block type="mpython_music_tone_tempo" id="My)scv/9}JNt7auJMGIG">
+        <value name="musical_note">
+          <shadow type="mpython_music_musical_note" id="76`?AYqTiq/#]a}/F)J~">
+            <field name="musical_note">B3</field>
+            <field name="music_tick">4</field>
+          </shadow>
+        </value>
+        <value name="pin">
+          <shadow type="mpython_music_pin_p6" id="fn|pzj%6^-XH*C.mx2%j">
+            <field name="music_pin">6</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="mpython_touch_event" id="({9B9UJrE@31rs8LZ;Cf" x="-212" y="38">
+    <field name="touchPad">Y</field>
+    <field name="action">pressed</field>
+    <statement name="DO">
+      <block type="mpython_music_tone_tempo" id="#dev+Wa4;$5RN7UnicO$">
+        <value name="musical_note">
+          <shadow type="mpython_music_musical_note" id="Nf{}|Yh,([4)c0:czrcx">
+            <field name="musical_note">E3</field>
+            <field name="music_tick">4</field>
+          </shadow>
+        </value>
+        <value name="pin">
+          <shadow type="mpython_music_pin_p6" id="|.+jKC4:8KN!!y_/796+">
+            <field name="music_pin">6</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="mpython_Interrupt_AB" id="UQzFELWfdoo~WvAXut4p" x="238" y="62">
+    <field name="button">button_b</field>
+    <field name="action">down</field>
+    <statement name="DO">
+      <block type="mpython_music_tone_tempo" id="%6d}QY`?Y=E=WDwgXRfy">
+        <value name="musical_note">
+          <shadow type="mpython_music_musical_note" id="1C+POlr=?Qrx$fEq=B%?">
+            <field name="musical_note">C4</field>
+            <field name="music_tick">4</field>
+          </shadow>
+        </value>
+        <value name="pin">
+          <shadow type="mpython_music_pin_p6" id="Jq,rj+)@/%/J:Gw|~6kf">
+            <field name="music_pin">6</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="mpython_touch_event" id="aGurd/[NGgu#Hk(fUHG." x="-212" y="137">
+    <field name="touchPad">T</field>
+    <field name="action">pressed</field>
+    <statement name="DO">
+      <block type="mpython_music_tone_tempo" id="|O1[9nXO,P.$:PF#2+x.">
+        <value name="musical_note">
+          <shadow type="mpython_music_musical_note" id="}K3Blnj5UHk93~ActD;p">
+            <field name="musical_note">F3</field>
+            <field name="music_tick">4</field>
+          </shadow>
+        </value>
+        <value name="pin">
+          <shadow type="mpython_music_pin_p6" id="@5tHsgZU!^Q)(XAnt)Of">
+            <field name="music_pin">6</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+</xml>
