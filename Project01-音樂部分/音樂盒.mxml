@@ -1,0 +1,137 @@
+<!--mPythonType:0-->
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="controls_repeat_forever" id="D,-iQ;/!$uV[Bjn=~@wL" x="-188" y="-213">
+    <statement name="DO">
+      <block type="controls_if" id="N9:xefmH{Y:hB}ObM-B`">
+        <value name="IF0">
+          <block type="logic_compare" id=".M^bsJWog;a+Z7G+n[dK">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="mpython_read_light" id="RatD%AJZ.LQaxd==UUgy"></block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="4{aO6:(|$EJE_qKj4`dW">
+                <field name="NUM">500</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="mpython_music_tone_tempo" id="{f@aR`S1rknDD!S`*G^~">
+            <value name="musical_note">
+              <shadow type="mpython_music_musical_note" id="skPT=6-{LJ-xFjto|I5L">
+                <field name="musical_note">C3</field>
+                <field name="music_tick">1</field>
+              </shadow>
+            </value>
+            <value name="pin">
+              <shadow type="mpython_music_pin_p6" id="5uHU9}s]sLt`p#f:Xjlf">
+                <field name="music_pin">6</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="mpython_music_tone_tempo" id="l~Q#f+A/v=c=9U}FW0oi">
+                <value name="musical_note">
+                  <shadow type="mpython_music_musical_note" id="izLPd]lDrA:~2cpHa(V)">
+                    <field name="musical_note">C3</field>
+                    <field name="music_tick">1</field>
+                  </shadow>
+                </value>
+                <value name="pin">
+                  <shadow type="mpython_music_pin_p6" id="C*Si2At646oWxtU`EWxm">
+                    <field name="music_pin">6</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="mpython_music_tone_tempo" id="?P;f*{+cx(gKl8jemD-$">
+                    <value name="musical_note">
+                      <shadow type="mpython_music_musical_note" id="02LQ:WOFr8oPOW7BTAn*">
+                        <field name="musical_note">G3</field>
+                        <field name="music_tick">1</field>
+                      </shadow>
+                    </value>
+                    <value name="pin">
+                      <shadow type="mpython_music_pin_p6" id="WWdP-iF:xrpYSJp6lSw.">
+                        <field name="music_pin">6</field>
+                      </shadow>
+                    </value>
+                    <next>
+                      <block type="mpython_music_tone_tempo" id="G2Yk`O%?WdZjF|aS3]hG">
+                        <value name="musical_note">
+                          <shadow type="mpython_music_musical_note" id="rEEst=:9dv@vM%_l%;)v">
+                            <field name="musical_note">G3</field>
+                            <field name="music_tick">1</field>
+                          </shadow>
+                        </value>
+                        <value name="pin">
+                          <shadow type="mpython_music_pin_p6" id="$pmr6@bi_U`Z2)`;s)8^">
+                            <field name="music_pin">6</field>
+                          </shadow>
+                        </value>
+                        <next>
+                          <block type="mpython_music_tone_tempo" id="`l[X-0{P{%F(to7d]@d%">
+                            <value name="musical_note">
+                              <shadow type="mpython_music_musical_note" id="+g{tTRw4%g#ih4_^YTSC">
+                                <field name="musical_note">A3</field>
+                                <field name="music_tick">1</field>
+                              </shadow>
+                            </value>
+                            <value name="pin">
+                              <shadow type="mpython_music_pin_p6" id="F9!4bSP@Wmg~/2j~0!rN">
+                                <field name="music_pin">6</field>
+                              </shadow>
+                            </value>
+                            <next>
+                              <block type="mpython_music_tone_tempo" id="VN(5O..do3W^QsDksw8v">
+                                <value name="musical_note">
+                                  <shadow type="mpython_music_musical_note" id=";[;s*$jcNmR*n8!WZA@L">
+                                    <field name="musical_note">A3</field>
+                                    <field name="music_tick">1</field>
+                                  </shadow>
+                                </value>
+                                <value name="pin">
+                                  <shadow type="mpython_music_pin_p6" id="SoG79-#/!NGmVcEJAW5/">
+                                    <field name="music_pin">6</field>
+                                  </shadow>
+                                </value>
+                                <next>
+                                  <block type="mpython_music_tone_tempo" id="IG~t-`LEop{fAd7+`_9.">
+                                    <value name="musical_note">
+                                      <shadow type="mpython_music_musical_note" id="yf,_8G`ugvI3v+GIb!FG">
+                                        <field name="musical_note">G3</field>
+                                        <field name="music_tick">1</field>
+                                      </shadow>
+                                    </value>
+                                    <value name="pin">
+                                      <shadow type="mpython_music_pin_p6" id="oJT3`(k#RZS~7O,]{H#m">
+                                        <field name="music_pin">6</field>
+                                      </shadow>
+                                    </value>
+                                    <next>
+                                      <block type="mpython_sleep_ms" id="PJXsvMhD-t4DQuG[pRJ4">
+                                        <field name="ms_us">s</field>
+                                        <value name="duration">
+                                          <shadow type="math_number" id="m$i:?a1d!=$^Gf2jDyqu">
+                                            <field name="NUM">0.5</field>
+                                          </shadow>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
