@@ -1,7 +1,8 @@
-<xml xmlns="http://www.w3.org/1999/xhtml">
+<!--mPythonType:0-->
+<xml xmlns="https://developers.google.com/blockly/xml">
   <variables>
-    <variable type="" id="jfqXK=9Wt}W]QyUsA(|G">a</variable>
-    <variable type="" id=":}*+.qUUF7C{q(I$@HET">b</variable>
+    <variable id="jfqXK=9Wt}W]QyUsA(|G">a</variable>
+    <variable id=":}*+.qUUF7C{q(I$@HET">b</variable>
   </variables>
   <block type="controls_whileUntil" id="2SYEx8LR2o1OAw*SFM{C" x="-6" y="-625">
     <field name="MODE">UNTIL</field>
@@ -18,7 +19,7 @@
             <field name="TEXTMODE">1</field>
             <value name="DispChar_5lines">
               <shadow type="mpython_4_lines" id="Pt/XZeqc9vPu4drkodv|">
-                <field name="mpython_4_lines">0</field>
+                <field name="mpython_4_lines">1</field>
               </shadow>
             </value>
             <value name="message">
@@ -31,7 +32,7 @@
                 <field name="TEXTMODE">1</field>
                 <value name="DispChar_5lines">
                   <shadow type="mpython_4_lines" id="r4xJMXzwfF.lA?Y=23J?">
-                    <field name="mpython_4_lines">16</field>
+                    <field name="mpython_4_lines">1</field>
                   </shadow>
                 </value>
                 <value name="message">
@@ -44,7 +45,7 @@
                     <field name="TEXTMODE">1</field>
                     <value name="DispChar_5lines">
                       <shadow type="mpython_4_lines" id="XG!90KsXub3IYk-L{idx">
-                        <field name="mpython_4_lines">32</field>
+                        <field name="mpython_4_lines">1</field>
                       </shadow>
                     </value>
                     <value name="message">
@@ -65,7 +66,7 @@
     </statement>
     <next>
       <block type="variables_set" id="eh]o,DoIH#~xFU}52(=k">
-        <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G" variabletype="">a</field>
+        <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G">a</field>
         <value name="VALUE">
           <block type="math_number" id="m+wX8T+b7hpu%mC_x|;7">
             <field name="NUM">0</field>
@@ -73,7 +74,7 @@
         </value>
         <next>
           <block type="variables_set" id="iJ0Q!6pL@~E(*,=~a)mU">
-            <field name="VAR" id=":}*+.qUUF7C{q(I$@HET" variabletype="">b</field>
+            <field name="VAR" id=":}*+.qUUF7C{q(I$@HET">b</field>
             <value name="VALUE">
               <block type="math_number" id="7l/V-W`Btb8qP=AD6gCy">
                 <field name="NUM">0</field>
@@ -92,7 +93,7 @@
                             <field name="OP">GT</field>
                             <value name="A">
                               <block type="variables_get" id="?-0Mql6zNLpgSjF5QG.f">
-                                <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G" variabletype="">a</field>
+                                <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G">a</field>
                               </block>
                             </value>
                             <value name="B">
@@ -107,7 +108,7 @@
                             <field name="OP">GT</field>
                             <value name="A">
                               <block type="variables_get" id="y?pN}W^p1ZqOK8;`jPjD">
-                                <field name="VAR" id=":}*+.qUUF7C{q(I$@HET" variabletype="">b</field>
+                                <field name="VAR" id=":}*+.qUUF7C{q(I$@HET">b</field>
                               </block>
                             </value>
                             <value name="B">
@@ -146,11 +147,11 @@
                               </shadow>
                             </value>
                             <value name="progress">
-                              <shadow type="math_number" id="waiHk:Z-zp-xgwZZFW0L">
+                              <shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number" id="waiHk:Z-zp-xgwZZFW0L">
                                 <field name="NUM">20</field>
                               </shadow>
                               <block type="variables_get" id="JDI*]lwbaglXz~u1wAf0">
-                                <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G" variabletype="">a</field>
+                                <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G">a</field>
                               </block>
                             </value>
                             <next>
@@ -177,11 +178,11 @@
                                   </shadow>
                                 </value>
                                 <value name="progress">
-                                  <shadow type="math_number" id="XJ^zy.0PvO]VyS%@W,dp">
+                                  <shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number" id="XJ^zy.0PvO]VyS%@W,dp">
                                     <field name="NUM">30</field>
                                   </shadow>
                                   <block type="variables_get" id="5^:%VhQtx_Fy,3PsMUZu">
-                                    <field name="VAR" id=":}*+.qUUF7C{q(I$@HET" variabletype="">b</field>
+                                    <field name="VAR" id=":}*+.qUUF7C{q(I$@HET">b</field>
                                   </block>
                                 </value>
                                 <next>
@@ -195,7 +196,7 @@
                                         </value>
                                         <statement name="DO0">
                                           <block type="math_change" id="@,DDDz(A^V_+c2vi{vRq">
-                                            <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G" variabletype="">a</field>
+                                            <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G">a</field>
                                             <value name="DELTA">
                                               <shadow type="math_number" id="l0`Vxv/$T,0(j#s2pop`">
                                                 <field name="NUM">3</field>
@@ -222,7 +223,7 @@
                                             </value>
                                             <statement name="DO0">
                                               <block type="math_change" id="*`,7F|pS3B|$vEuloe~V">
-                                                <field name="VAR" id=":}*+.qUUF7C{q(I$@HET" variabletype="">b</field>
+                                                <field name="VAR" id=":}*+.qUUF7C{q(I$@HET">b</field>
                                                 <value name="DELTA">
                                                   <shadow type="math_number" id="7wG*#3{b=z4GK{U4c3uf">
                                                     <field name="NUM">3</field>
@@ -233,7 +234,7 @@
                                                     <field name="MODE">WHILE</field>
                                                     <value name="BOOL">
                                                       <block type="mpython_button_is_pressed" id="h$)x]/420D6-S(T8vu):">
-                                                        <field name="button">a</field>
+                                                        <field name="button">b</field>
                                                       </block>
                                                     </value>
                                                   </block>
@@ -269,7 +270,7 @@
                             <field name="OP">GT</field>
                             <value name="A">
                               <block type="variables_get" id="cGOPKmwwHy7S.(I`EiGE">
-                                <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G" variabletype="">a</field>
+                                <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G">a</field>
                               </block>
                             </value>
                             <value name="B">
@@ -305,7 +306,7 @@
                                     <field name="TEXTMODE">1</field>
                                     <value name="DispChar_5lines">
                                       <shadow type="mpython_4_lines" id="xfJ4cdbPE_L22^^J)Fz`">
-                                        <field name="mpython_4_lines">48</field>
+                                        <field name="mpython_4_lines">1</field>
                                       </shadow>
                                     </value>
                                     <value name="message">
@@ -326,7 +327,7 @@
                                 <field name="OP">GT</field>
                                 <value name="A">
                                   <block type="variables_get" id="-~zHygqo*dAB=ehZ3vjX">
-                                    <field name="VAR" id=":}*+.qUUF7C{q(I$@HET" variabletype="">b</field>
+                                    <field name="VAR" id=":}*+.qUUF7C{q(I$@HET">b</field>
                                   </block>
                                 </value>
                                 <value name="B">
@@ -362,7 +363,7 @@
                                         <field name="TEXTMODE">1</field>
                                         <value name="DispChar_5lines">
                                           <shadow type="mpython_4_lines" id="B,Dr5h$x?#_{X+]6[ozG">
-                                            <field name="mpython_4_lines">48</field>
+                                            <field name="mpython_4_lines">1</field>
                                           </shadow>
                                         </value>
                                         <value name="message">
@@ -387,7 +388,7 @@
                                     </value>
                                     <statement name="DO0">
                                       <block type="variables_set" id="nuxC;;iZ7fHmmO`f+!OF">
-                                        <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G" variabletype="">a</field>
+                                        <field name="VAR" id="jfqXK=9Wt}W]QyUsA(|G">a</field>
                                         <value name="VALUE">
                                           <block type="math_number" id="OQ5.xv7~06Z1[Bwd7qT]">
                                             <field name="NUM">0</field>
@@ -395,7 +396,7 @@
                                         </value>
                                         <next>
                                           <block type="variables_set" id="XHV_qK2F5aV@h1mvCC@t">
-                                            <field name="VAR" id=":}*+.qUUF7C{q(I$@HET" variabletype="">b</field>
+                                            <field name="VAR" id=":}*+.qUUF7C{q(I$@HET">b</field>
                                             <value name="VALUE">
                                               <block type="math_number" id=":./VB{Lhzfkzo(2~kbMX">
                                                 <field name="NUM">0</field>
