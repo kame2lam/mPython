@@ -29,16 +29,17 @@ def left():
     motor[2].value(1)
     motor[3].value(0)
 
-def rgiht():
+def right():
     motor[0].value(1)
     motor[1].value(0)
     motor[2].value(0)
     motor[3].value(0)
 
 while True:
-    P12=Pin(12, Pin.IN).value
-    P14=Pin(14, Pin.IN).value
+    P12=Pin(12, Pin.IN).value()
+    P14=Pin(14, Pin.IN).value()
     value=P12*2+P14
+    print(value)
     if value==0:
         forward()
     if value==3:
@@ -46,5 +47,5 @@ while True:
     if value==1:
         left()
     if value==2:
-        right 
+        right()
   
